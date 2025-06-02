@@ -1,9 +1,6 @@
 # Habit Tracker
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/AlexPechkin2004/habit-tracker/actions)
-
-**Habit Tracker** is an Android mobile application designed to help users build positive habits and overcome addictions through personalized tracking, customizable notifications, and community support. Developed as part of a diploma project, the app leverages Firebase Realtime Database for real-time data synchronization and Google Sign-In for secure authentication. Key features include habit creation, progress tracking, accountability partner requests, real-time chats, and a secure logout mechanism.
+**Habit Tracker** is an Android mobile application designed to help users build positive habits and overcome addictions through personalized tracking, customizable notifications, and community support. Developed as part of a diploma project, the app leverages Firebase Realtime Database for real-time data synchronization and Google Sign-In for secure authentication. Key features include habit creation, progress tracking with statistical charts, goal setting, daily review notifications, accountability partner requests, and real-time chats.
 
 ## Table of Contents
 - [Features](#features)
@@ -18,38 +15,50 @@
 ## Features
 - **Habit Creation and Tracking**:
   - Add and manage habits (e.g., "Reading") or addictions (e.g., "Cigarettes").
-  - Track progress with streaks and percentage-based metrics.
+  - Track progress with streaks, percentage-based metrics, and completion history.
   - Mark daily completions or relapses for habits/addictions.
 
+- **Statistics with Charts**:
+  - View detailed statistics for each habit and addiction, including progress over time.
+  - Visual charts (e.g., line or bar graphs) display streaks, completion rates, and relapse trends.
+  - Accessible via a dedicated stats screen for each habit/addiction.
+
+- **Goal Setting**:
+  - Create specific goals for habits or addictions (e.g., "Read 30 days in a row" or "90 days without smoking").
+  - Track goal progress with visual indicators and achievement notifications.
+  - Goals are stored in Firebase and synced with local storage.
+
 - **Customizable Notifications**:
-  - Set daily, hourly, or custom-interval reminders for habits.
+  - Set daily, hourly, or custom-interval reminders for habits and goals.
+  - **Daily Review Notifications**: Receive a notification to remind of marking victories for addictions.
   - Notifications respect user-defined sleep schedules to avoid disturbances.
-  - All notifications are canceled upon logout for privacy.
 
 - **Accountability Partners**:
   - Submit requests to find support partners for specific habits/addictions.
-  - View and accept requests from other users, filtered by age and gender.
+  - View and accept requests from other users.
   - Real-time updates for request status via Firebase.
 
 - **Real-Time Chats**:
-  - Create group chats or accountability chats to stay motivated.
+  - Group chats or private accountability chats to stay motivated.
   - Dynamic chat list updates instantly when new chats are added.
   - Supports global and user-specific chats with access restrictions.
 
 - **Secure Authentication**:
   - Google Sign-In with account selection prompt for flexible login.
-  - Secure logout clears all local data (SharedPreferences) and notifications.
+  - Secure logout clears all local data (SharedPreferences), notifications, and supports switching Google accounts.
   - Offline support with local storage and Firebase synchronization.
 
 - **Firebase Integration**:
-  - Real-time database for habits, stats, chats, and user data.
+  - Real-time database for habits, stats, goals, chats, and user data.
   - Offline caching via SharedPreferences for seamless operation.
 
 ## Screenshots
-*Coming soon! Screenshots of the app’s UI, including habit tracking, chat interface, and settings, will be added in the next release.*
+*Coming soon! Screenshots of the app’s UI, including habit tracking, statistics, goal setting, chat interface, and settings, will be added in the next release.*
 
 *Placeholder:*
 - Habit List: `screenshots/habit_list.png`
+- Statistics Screen: `screenshots/stats_screen.png`
+- Goal Creation: `screenshots/goal_creation.png`
 - Chat Interface: `screenshots/chat_screen.png`
 - Settings Screen: `screenshots/settings.png`
 
@@ -64,22 +73,3 @@
 3. **Sign In**:
    - Launch the app and sign in with a Google account to access all features.
    - Ensure an active internet connection for initial Firebase synchronization.
-
-## Usage
-1. **Create a Habit**:
-   - Navigate to the "Habits" tab and tap the floating action button (+).
-   - Select a predefined habit (e.g., "Reading") or add a custom one.
-   - Set a reminder schedule (e.g., daily at 18:00).
-
-2. **Track Progress**:
-   - Mark daily completions in the habit’s card to update streaks and progress.
-   - For addictions, mark victories or relapses to track sobriety.
-
-3. **Find Accountability Partners**:
-   - Go to the "Messages" tab, select "Accountability Partners," and create a request.
-   - Specify the habit and your preferences (e.g., age, gender).
-   - Accept incoming requests to start a private accountability chat.
-
-4. **Chat with Others**:
-   - Access the "Chats" tab to view or create group chats.
-   - Join global chats or accountability chats to share progress and motivation.
