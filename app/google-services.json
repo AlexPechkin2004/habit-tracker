@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "361907307153",
+    "firebase_url": "https://habittracker-83359-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "habittracker-83359",
+    "storage_bucket": "habittracker-83359.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361907307153:android:a73daf3b93a6362bcbf530",
+        "android_client_info": {
+          "package_name": "com.alexpechkin.habittracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361907307153-377c027d9eo05bnnipugks9n37mjniqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alexpechkin.habittracker",
+            "certificate_hash": "4f4c2e54f8015b2540743ea819d23af1048cbf00"
+          }
+        },
+        {
+          "client_id": "361907307153-r62uotlvt83pdpdpbk61ob6uoksevrgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alexpechkin.habittracker",
+            "certificate_hash": "f2a1e8d60d3c708f1898013c7de1656b054715e4"
+          }
+        },
+        {
+          "client_id": "361907307153-e4j2qto08uijqkt9ckm3g9dlk2p8aqu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLoAoNPG_-JbC0MvcggHFOnEMX0NfnOrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361907307153-e4j2qto08uijqkt9ckm3g9dlk2p8aqu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

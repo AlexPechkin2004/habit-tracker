@@ -1,0 +1,95 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/HabitTracker/app/src/main/java/com/alexpechkin/habittracker/ResultsActivity.java",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 4195,
+          "line": 104
+        },
+        "start": {
+          "column": 0,
+          "index": 4195,
+          "line": 104
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/HabitTracker/gradle/wrapper/gradle-wrapper.jar",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/HabitTracker/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/HabitTracker/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 69,
+          "index": 1105,
+          "line": 48
+        },
+        "start": {
+          "column": 69,
+          "index": 1105,
+          "line": 48
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/HabitTracker/app/src/main/res/layout/activity_results.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 1058,
+          "line": 31
+        },
+        "start": {
+          "column": 0,
+          "index": 1058,
+          "line": 31
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/HabitTracker/app/google-services.json",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/HabitTracker/app/google-services.json"
+}

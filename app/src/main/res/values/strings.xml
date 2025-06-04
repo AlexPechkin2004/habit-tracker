@@ -1,0 +1,401 @@
+<resources>
+    <string name="app_name">Habit Tracker</string>
+
+    <!-- Navigation Menu -->
+    <string name="navigation_home">Home</string>
+    <string name="navigation_habits">Habits</string>
+    <string name="navigation_addictions">Addictions</string>
+    <string name="navigation_messages">Community</string>
+    <string name="navigation_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="overall_progress">Overall Progress: </string>
+    <string name="best_habit">Best Habit: </string>
+    <string name="best_struggle">Best Struggle: </string>
+    <string name="welcome_text">Welcome to Habit Tracker!</string>
+    <string name="habits_stats_title">Habits Statistics</string>
+    <string name="no_habits_text">You don\'t have any habits yet. Add them!</string>
+    <string name="addiction_stats_title">Addictions Statistics</string>
+    <string name="no_addictions_text">You don\'t have any addictions to track. Add them!</string>
+    <string name="motivation_quote_1">It\'s hard to beat a person who never gives up!</string>
+    <string name="motivation_quote_2">Progress is failure after failure without loss of enthusiasm.</string>
+    <string name="motivation_quote_3">Change doesn\'t come if we wait for someone else or another time.</string>
+    <string name="motivation_quote_4">Small progress every day leads to big results.</string>
+    <string name="motivation_quote_5">A habit is either the best servant or the worst master.</string>
+
+    <!-- Habit and Addiction Cards -->
+    <string name="no_habits_selected">No habits selected</string>
+    <string name="no_addictions_selected">No addictions selected</string>
+    <string name="start_date_label">Tracking started: </string>
+    <string name="current_streak_label">Current streak: </string>
+    <string name="longest_streak_label">Longest streak: </string>
+    <string name="days_label"> days</string>
+    <string name="progress_label">Progress: </string>
+    <string name="mark_victory_button">Mark Victory</string>
+    <string name="reminder_button">Reminder</string>
+    <string name="relapse_button">Relapse</string>
+    <string name="delete_button">Delete</string>
+
+    <!-- Add Item Dialog -->
+    <string name="add_item_dialog_title">Add New Item</string>
+    <string name="habit_radio">Habit</string>
+    <string name="addiction_radio">Addiction</string>
+    <string name="predefined_label">Select predefined item:</string>
+    <string name="predefined_placeholder">--- Select an item ---</string>
+    <string name="custom_name_label">Or enter custom name:</string>
+    <string name="name_hint">Enter name</string>
+    <string name="add_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="item_added_toast">Item added</string>
+    <string name="select_item_error">Select an item or enter a name</string>
+
+    <!-- Predefined Habits -->
+    <string name="healthy_sleep">Healthy Sleep</string>
+    <string name="morning_exercises">Morning Exercises</string>
+    <string name="reading">Reading</string>
+    <string name="meditation">Meditation</string>
+
+    <!-- Predefined Addictions -->
+    <string name="alcohol">Alcohol</string>
+    <string name="cigarettes">Cigarettes</string>
+    <string name="drugs">Drugs</string>
+    <string name="gambling">Gambling</string>
+    <string name="self_harm">Self-Harm</string>
+    <string name="sugar">Sugar</string>
+    <string name="pornography">Pornography</string>
+    <string name="social_networks">Social Networks</string>
+
+    <!-- Reminder Dialog -->
+    <string name="reminder_dialog_title">Reminder Settings for Habit</string>
+    <string name="every_minute">Every Minute</string>
+    <string name="hourly">Hourly</string>
+    <string name="daily">Daily</string>
+    <string name="every_other_day">Every Other Day</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="custom_interval">Custom Interval</string>
+    <string name="custom_interval_unit"> minutes</string>
+    <string name="save_button">Save</string>
+    <string name="reminder_set_toast">Reminder set for </string>
+    <string name="frequency_label">Reminder Frequency:</string>
+    <string name="custom_interval_label">Enter interval (in minutes):</string>
+    <string name="custom_interval_hint">Number of minutes</string>
+    <string name="time_label">Reminder Start Time:</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Relapse Dialog -->
+    <string name="relapse_dialog_title">Mark Relapse</string>
+    <string name="relapse_confirmation_message">A relapse will reset your current progress. Are you sure?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="future_date_error">Cannot select a future date</string>
+    <string name="future_time_error">Cannot select a future time</string>
+    <string name="relapse_recorded_toast">Relapse recorded. Progress updated.</string>
+    <string name="relapse_no_progress_change_toast">Relapse recorded. Progress unchanged.</string>
+
+    <!-- Marking Actions -->
+    <string name="relapse_today_error">❌ Cannot mark victory on a relapse day!</string>
+    <string name="day_marked_toast">✅ Day marked for \"%s\"!</string>
+    <string name="already_marked_toast">🕒 This day is already marked!</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="delete_confirmation_title">Delete Confirmation</string>
+    <string name="delete_confirmation_message">Are you sure you want to delete the item \"%s\"?</string>
+    <string name="item_deleted_toast">Item deleted</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_dialog_title">Settings</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="sleep_mode_switch">Sleep Mode (No Notifications)</string>
+    <string name="sleep_start_label">Sleep Mode Start:</string>
+    <string name="sleep_end_label">Sleep Mode End:</string>
+    <string name="addiction_reminders_switch">Daily Review</string>
+    <string name="addiction_reminder_time_label">Daily Review Time:</string>
+    <string name="app_info_title">About the App</string>
+    <string name="version_label">Version: </string>
+    <string name="version_unknown">Version: unknown</string>
+    <string name="feedback_button">Send Feedback</string>
+    <string name="close_button">Close</string>
+    <string name="addiction_reminders_disabled_toast">Addiction reminders disabled</string>
+    <string name="addiction_reminders_updated_toast">Addiction reminders updated</string>
+    <string name="no_email_app_error">No apps available for sending email</string>
+    <string name="feedback_email_subject">Feedback for Habit Tracker App</string>
+    <string name="feedback_email">email@alexpechkin.com</string>
+
+    <!-- Messages Screen -->
+    <string name="messages_placeholder">Your messages and reminders will appear here</string>
+
+    <!-- Notifications -->
+    <string name="habit_reminder_title">Reminder: %s</string>
+    <string name="habit_reminder_message">Time to perform the habit</string>
+    <string name="addiction_reminder_title">Addiction Struggle</string>
+    <string name="addiction_reminder_message">Time to update your progress</string>
+
+    <!-- Permission Explanation -->
+    <string name="notification_permission_title">Notification Permission Required</string>
+    <string name="notification_permission_message">Without this permission, the app cannot send reminders. You can grant permission in settings.</string>
+    <string name="settings_button">Settings</string>
+    <string name="later_button">Later</string>
+    <string name="no_notifications_warning">Without notifications, some features will be limited</string>
+
+    <!-- Loading and Errors -->
+    <string name="loading_text">Loading data...</string>
+    <string name="firebase_load_error">Failed to load data from Firebase. Using local data.</string>
+
+    <!-- MainActivity -->
+    <string name="database_connection_error">Database connection error</string>
+    <string name="invalid_age_error">Please enter a valid age</string>
+    <string name="age_range_error">Age must be between 14 and 90</string>
+    <string name="select_gender_error">Please select a gender</string>
+    <string name="login_first_error">Please sign in first</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="error_sign_in_failed">Sign-in failed with error code: %d</string>
+    <string name="firebase_not_configured_error">Error: Firebase not configured.</string>
+    <string name="unexpected_error">An unexpected error occurred.</string>
+    <string name="null_token_error">Failed to obtain Google token.</string>
+    <string name="login_success">Successfully signed in as %s</string>
+    <string name="firebase_auth_error">Firebase authentication failed</string>
+    <string name="user_data_saved_success">Data saved successfully</string>
+    <string name="user_data_save_error">Error saving data: %s</string>
+    <string name="user_data_check_error">Failed to check user data: %s</string>
+
+    <!-- Gender Spinner Options -->
+    <array name="gender_array">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <!-- HabitsActivity -->
+    <string name="add_custom">Add</string>
+    <string name="habits_saved_success">Habits saved successfully!</string>
+    <string name="habits_save_error">Error saving habits to Firebase!</string>
+    <string name="user_not_authorized_error">User not authorized!</string>
+
+    <!-- AddictionsActivity -->
+    <string name="addictions_saved_success">Addictions saved successfully!</string>
+    <string name="addictions_save_error">Error saving addictions to Firebase!</string>
+    <string name="return_to_habits_button">Return to Habits</string>
+
+    <string name="default_web_client_id" translatable="false">361907307153-377c027d9eo05bnnipugks9n37mjniqa.apps.googleusercontent.com</string>
+
+    <string name="welcome_message">Welcome to Habit Tracker!</string>
+    <string name="hint_enter_your_name">Enter your name</string>
+    <string name="hint_age">Enter your age</string>
+    <string name="next">Next</string>
+    <string name="choose_habits">Choose your habits</string>
+    <string name="enter_custom_habit">Enter custom habit</string>
+    <string name="choose_addictions">Choose your addictions</string>
+    <string name="enter_custom_addiction">Enter custom addiction</string>
+    <string name="return_to_habits">Return to Habits</string>
+    <string name="finish">Finish</string>
+    <string name="selected_habits">Selected Habits</string>
+    <string name="selected_addictions">Selected Addictions</string>
+
+    <string name="notification_channel_name">Reminder Service</string>
+    <string name="notification_content">Reminder service is running</string>
+
+    <string name="duration_days">d</string>
+    <string name="duration_hours">h</string>
+    <string name="duration_minutes">min</string>
+
+    <string name="day_singular">day</string>
+    <string name="day_plural">days</string>
+
+    <string name="panic_button">Panic Button</string>
+    <string name="panic_message_breathe_in">Breathe In</string>
+    <string name="panic_message_breathe_out">Breathe Out</string>
+    <string name="panic_message_remember_why">Remember Why You Want to Stay Strong</string>
+    <string name="panic_message_you_are_strong">You Are Stronger Than Your Urges</string>
+    <string name="panic_message_one_step">Take It One Step at a Time</string>
+
+    <!-- Community Features -->
+    <string name="set_username_title">Set Your Username For Community</string>
+    <string name="username_hint">Enter username</string>
+    <string name="username_empty_error">Username cannot be empty</string>
+    <string name="username_taken_error">Username is already taken</string>
+    <string name="username_set_toast">Username set successfully</string>
+    <string name="no_chats_text">No chats available</string>
+    <string name="open_chat_button">Open Chat</string>
+    <string name="unnamed_chat">Unnamed Chat</string>
+    <string name="message_hint">Type a message</string>
+    <string name="send_button">Send</string>
+    <string name="empty_message_error">Message cannot be empty</string>
+    <string name="message_sent_toast">Message sent</string>
+    <string name="message_send_error">Failed to send message</string>
+    <string name="create_chat_title">Create New Chat</string>
+    <string name="chat_name_hint">Enter chat name</string>
+    <string name="chat_name_empty_error">Chat name cannot be empty</string>
+    <string name="chat_created_toast">Chat created successfully</string>
+    <string name="create_chat_button">Create New Chat</string>
+    <string name="find_partner_button">Find Accountability Partner</string>
+    <string name="no_partners_found">No potential partners found</string>
+    <string name="partner_chat_created_toast">Accountability chat created</string>
+    <string name="anonymous_user">Anonymous</string>
+    <string name="create_button">Create</string>
+
+    <string name="global_chat_created_toast">Global chat created</string>
+    <string name="global_chat_label">(Global)</string>
+    <string name="created_by_label">Created: %s</string>
+    <string name="unknown_user">Unknown User</string>
+    <string name="create_chat_dialog_title">Create New Chat</string>
+    <string name="firebase_save_error">Error saving to Firebase</string>
+    <string name="user_not_logged_in_error">Login first to create a chat</string>
+
+        <string name="calendar_title">Progress Calendar</string>
+        <string name="relapse_history_title">Relapse History</string>
+        <string name="addiction_title_placeholder">Addiction Stats</string>
+        <string name="error_no_addiction_key">No addiction selected</string>
+        <string name="marked_day">Victory Day</string>
+        <string name="relapse_day">Relapse Day</string>
+        <string name="no_relapses_text">No relapses recorded</string>
+
+    <string name="relapse_graph_title">Relapse Graph</string>
+    <string name="relapse_count_label">Relapse Count</string>
+    <string name="no_relapse_data">No relapse data available</string>
+    <string name="day_of_week_chart_title">Relapse Chart by Day of Week</string>
+    <string name="time_of_day_chart_title">Relapse Chart by Time of Day</string>
+
+    <!-- Goals Section -->
+    <string name="goals_title">Your Goals</string>
+    <string name="no_goals_text">No goals set yet. Add a goal to track your progress!</string>
+    <string name="add_goal_button">Add New Goal</string>
+    <string name="add_goal_dialog_title">Set a New Goal</string>
+    <string name="select_habit_label">Select Habit or Addiction</string>
+    <string name="select_habit_placeholder">Choose a habit or addiction</string>
+    <string name="goal_type_label">Goal Type</string>
+    <string name="streak_goal">Streak (Days)</string>
+    <string name="progress_goal">Progress (%)</string>
+    <string name="target_value_label">Target Value</string>
+    <string name="target_value_hint">Enter target (e.g., 30 for 30 days or 50 for 50%)</string>
+    <string name="select_habit_error">Please select a habit or addiction</string>
+    <string name="target_empty_error">Please enter a target value</string>
+    <string name="target_invalid_error">Target must be a positive number</string>
+    <string name="goal_description">Goal for %1$s: Reach %2$s (%3$s)</string>
+    <string name="achieved_label">Achieved</string>
+    <string name="in_progress_label">In Progress</string>
+    <string name="set_date_label">Set on</string>
+    <string name="delete_goal_button">Delete Goal</string>
+    <string name="delete_goal_confirmation_title">Delete Goal</string>
+    <string name="delete_goal_confirmation_message">Are you sure you want to delete this goal?</string>
+    <string name="goal_added_toast">Goal added successfully!</string>
+    <string name="goal_deleted_toast">Goal deleted successfully</string>
+    <string name="goal_achieved_toast">Congratulations! You achieved your goal for %1$s!</string>
+
+    <!-- Existing strings (only showing the ones added or relevant to the changes) -->
+    <string name="gender_restriction_label">Gender Restriction</string>
+    <string name="gender_any">Any</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="age_range_label">Age Range</string>
+    <string name="min_age_hint">Min Age</string>
+    <string name="max_age_hint">Max Age</string>
+    <string name="invalid_age_range_error">Minimum age cannot be greater than maximum age</string>
+    <string name="invalid_age_format_error">Please enter a valid age</string>
+    <string name="set_profile_title">Set Profile Information</string>
+    <string name="gender_label">Gender</string>
+    <string name="age_label">Age</string>
+    <string name="age_empty_error">Age cannot be empty</string>
+    <string name="age_invalid_error">Please enter a valid age (14-90)</string>
+    <string name="profile_set_toast">Profile information saved successfully</string>
+    <string name="message_options">Message Options</string>
+    <string name="copy_message">Copy Message</string>
+    <string name="report_message">Report Message</string>
+    <string name="message_copied">Message copied</string>
+    <string name="send_email">Send Email</string>
+    <string name="email_client_error">No email client found</string>
+
+    <string name="mark_completion_button">Mark Completion</string>
+    <string name="habit_completed_toast">Habit \"%1$s\" marked as completed!</string>
+    <string name="habit_additional_completion_toast">Additional completion recorded for \"%1$s\"!</string>
+
+    <!-- Accountability Partner Strings -->
+    <string name="accountability_partner_title">Find an Accountability Partner</string>
+    <string name="select_habit_addiction_prompt">Select habit or addiction:</string>
+    <string name="accountability_note">Your age and gender from your profile will be used for matching</string>
+    <string name="submit_request">Submit Request</string>
+    <string name="login_required">You must be logged in to use this feature</string>
+    <string name="profile_incomplete">Your profile is incomplete. Please set your age and gender first.</string>
+    <string name="set_username_first">Please set your username first</string>
+    <string name="request_creation_error">Error creating request. Please try again.</string>
+    <string name="request_submitted_success">Your accountability partner request has been submitted</string>
+    <string name="request_submission_failed">Failed to submit request. Please try again.</string>
+    <string name="accountability_requests_header">Accountability Partner Requests</string>
+    <string name="create_accountability_request">Create Accountability Request</string>
+    <string name="no_active_requests">No active accountability partner requests found</string>
+    <string name="your_accountability_chats">Your Accountability Chats</string>
+    <string name="accountability_request_from">Accountability request from %1$s</string>
+    <string name="accountability_for_habit">For habit/addiction: %1$s</string>
+    <string name="user_details_format">Age: %1$d | Gender: %2$s</string>
+    <string name="accept_request">Accept Request</string>
+    <string name="request_not_found">Request not found or already accepted</string>
+    <string name="accountability_chat_name">Accountability: %1$s and %2$s</string>
+    <string name="request_accepted">Request accepted! Chat created.</string>
+    <string name="chat_creation_failed">Failed to create chat. Please try again.</string>
+    <string name="accountability_partners_tab">Accountability Requests</string>
+    <string name="chats_tab">Chats</string>
+    <string name="no_habits_available">No habits available</string>
+    <string name="your_request">Your Accountability Request</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="request_cancelled">Your request has been cancelled</string>
+    <string name="request_cancellation_failed">Failed to cancel request. Please try again.</string>
+    <string name="others_requests_header">Other Users\' Requests</string>
+    <string name="no_other_requests">No other users\' requests available</string>
+    <string name="login_to_see_chats">Please log in to see your chats</string>
+    <string name="no_accountability_chats">You don\'t have any accountability chats yet</string>
+    <string name="accountability_chat_with">Accountability with %1$s</string>
+    <string name="partner_label">Partner: %1$s</string>
+    <string name="unknown_partner">Unknown Partner</string>
+
+    <string name="habit_label">Habit/addiction: %1$s</string>
+    <string name="unknown_habit">Unknown Habit or Addiction</string>
+
+    <string name="hour_singular">hour</string>
+    <string name="hours_label">hours</string>
+    <string name="minute_singular">min</string>
+    <string name="minutes_label">mins</string>
+
+    <string name="error_no_habit_key">Error: habit key not found</string>
+    <string name="no_completion_data">No completion data</string>
+    <string name="completion_count_label">Completion Count</string>
+    <string name="completion_history_title">Completion History:</string>
+    <string name="no_completions_text">No completions</string>
+
+    <string name="habit_title_placeholder">Habit</string>
+    <string name="habit_calendar_title">Completion Calendar</string>
+    <string name="habit_day_of_week_chart_title">Completions by Day of Week</string>
+    <string name="habit_time_of_day_chart_title">Completions by Time of Day</string>
+
+    <string name="missed_days_warning">%d days missed</string>
+
+    <string-array name="day_names">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string name="offline_mode_message">You are working in offline mode. Changes will be saved locally.</string>
+    <string name="offline_messages_unavailable">The messages tab is unavailable in offline mode.</string>
+    <string name="data_synced">Data synced with Firebase.</string>
+
+    <!-- Accountability Partner Request Strings -->
+    <string name="request_inactive">This request is no longer active.</string>
+    <string name="no_habits_to_select">Please add a habit or addiction before creating a request.</string>
+    <string name="complete_profile_to_accept">Complete your profile to accept requests.</string>
+    <string name="error_loading_profile">Error loading profile.</string>
+    <string name="login_to_see_requests">Please log in to view accountability requests.</string>
+    <string name="login_to_accept">Login first to accept</string>
+    <string name="accountability_chat_default">Chats with accountability partners</string>
+
+    <string name="account_title">Account</string>
+    <string name="logout_button">Log Out</string>
+    <string name="logout_confirmation_title">Confirm Logout</string>
+    <string name="logout_confirmation_message">Are you sure you want to log out? This will clear all local data.</string>
+    <string name="logout_success_toast">Logged out successfully</string>
+</resources>
