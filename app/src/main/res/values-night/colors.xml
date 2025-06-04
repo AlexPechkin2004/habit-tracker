@@ -1,0 +1,6 @@
+<resources>
+    <color name="dark_background">#121212</color> <!-- Material Design темний фон -->
+    <color name="light_gray">#E0E0E0</color> <!-- Світлий текст для темної теми -->
+    <color name="purple_500">#6200EE</color> <!-- Залишаємо той же primary колір -->
+    <color name="purple_900">#1A0066</color> <!-- Темніший для статус-бару -->
+</resources>

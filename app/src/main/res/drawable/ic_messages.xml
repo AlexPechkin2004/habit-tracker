@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:viewportWidth="48"
+    android:viewportHeight="48"
+    android:width="48dp"
+    android:height="48dp">
+    <!-- Використовуємо group для масштабування вмісту -->
+    <group
+        android:scaleX="0.91"
+        android:scaleY="0.91"
+        android:pivotX="24"
+        android:pivotY="24">
+    <path
+        android:pathData="M40 4H8C5.79 4 4.02 5.79 4.02 8L4 44l8 -8h28c2.21 0 4 -1.79 4 -4V8c0 -2.21 -1.79 -4 -4 -4zM12 18h24v4H12v-4zm16 10H12v-4h16v4zm8 -12H12v-4h24v4z"
+        android:fillColor="@color/purple_500" />
+</group>
+    </vector>

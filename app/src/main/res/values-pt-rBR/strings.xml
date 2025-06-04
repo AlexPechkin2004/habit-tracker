@@ -1,0 +1,397 @@
+<resources>
+    <string name="app_name">Rastreador de Hábitos</string>
+
+    <!-- Navigation Menu -->
+    <string name="navigation_home">Início</string>
+    <string name="navigation_habits">Hábitos</string>
+    <string name="navigation_addictions">Vícios</string>
+    <string name="navigation_messages">Comunidade</string>
+    <string name="navigation_settings">Configurações</string>
+
+    <!-- Home Screen -->
+    <string name="overall_progress">Progresso Geral: </string>
+    <string name="best_habit">Melhor Hábito: </string>
+    <string name="best_struggle">Melhor Luta: </string>
+    <string name="welcome_text">Bem-vindo ao Rastreador de Hábitos!</string>
+    <string name="habits_stats_title">Estatísticas de Hábitos</string>
+    <string name="no_habits_text">Você ainda não tem hábitos. Adicione-os!</string>
+    <string name="addiction_stats_title">Estatísticas de Vícios</string>
+    <string name="no_addictions_text">Você não tem vícios para rastrear. Adicione-os!</string>
+    <string name="motivation_quote_1">É difícil vencer uma pessoa que nunca desiste!</string>
+    <string name="motivation_quote_2">Progresso é falha após falha sem perda de entusiasmo.</string>
+    <string name="motivation_quote_3">A mudança não vem se esperarmos por outra pessoa ou outro momento.</string>
+    <string name="motivation_quote_4">Pequenos progressos diários levam a grandes resultados.</string>
+    <string name="motivation_quote_5">Um hábito é o melhor servo ou o pior mestre.</string>
+
+    <!-- Habit and Addiction Cards -->
+    <string name="no_habits_selected">Nenhum hábito selecionado</string>
+    <string name="no_addictions_selected">Nenhum vício selecionado</string>
+    <string name="start_date_label">Rastreamento iniciado: </string>
+    <string name="current_streak_label">Sequência atual: </string>
+    <string name="longest_streak_label">Maior sequência: </string>
+    <string name="days_label"> dias</string>
+    <string name="progress_label">Progresso: </string>
+    <string name="mark_victory_button">Marcar Vitória</string>
+    <string name="reminder_button">Lembrete</string>
+    <string name="relapse_button">Recaída</string>
+    <string name="delete_button">Excluir</string>
+
+    <!-- Add Item Dialog -->
+    <string name="add_item_dialog_title">Adicionar Novo Item</string>
+    <string name="habit_radio">Hábito</string>
+    <string name="addiction_radio">Vício</string>
+    <string name="predefined_label">Selecionar item predefinido:</string>
+    <string name="predefined_placeholder">--- Selecionar um item ---</string>
+    <string name="custom_name_label">Ou inserir nome personalizado:</string>
+    <string name="name_hint">Inserir nome</string>
+    <string name="add_button">Adicionar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="item_added_toast">Item adicionado</string>
+    <string name="select_item_error">Selecione um item ou insira um nome</string>
+
+    <!-- Predefined Habits -->
+    <string name="healthy_sleep">Sono Saudável</string>
+    <string name="morning_exercises">Exercícios Matinais</string>
+    <string name="reading">Leitura</string>
+    <string name="meditation">Meditação</string>
+
+    <!-- Predefined Addictions -->
+    <string name="alcohol">Álcool</string>
+    <string name="cigarettes">Cigarros</string>
+    <string name="drugs">Drogas</string>
+    <string name="gambling">Jogo</string>
+    <string name="self_harm">Automutilação</string>
+    <string name="sugar">Açúcar</string>
+    <string name="pornography">Pornografia</string>
+    <string name="social_networks">Redes Sociais</string>
+
+    <!-- Reminder Dialog -->
+    <string name="reminder_dialog_title">Configurações de Lembrete para Hábito</string>
+    <string name="every_minute">A cada minuto</string>
+    <string name="hourly">De hora em hora</string>
+    <string name="daily">Diariamente</string>
+    <string name="every_other_day">A cada dois dias</string>
+    <string name="weekly">Semanalmente</string>
+    <string name="monthly">Mensalmente</string>
+    <string name="custom_interval">Intervalo Personalizado</string>
+    <string name="custom_interval_unit"> minutos</string>
+    <string name="save_button">Salvar</string>
+    <string name="reminder_set_toast">Lembrete definido para </string>
+    <string name="frequency_label">Frequência do Lembrete:</string>
+    <string name="custom_interval_label">Digite o intervalo (em minutos):</string>
+    <string name="custom_interval_hint">Número de minutos</string>
+    <string name="time_label">Horário inicial do lembrete:</string>
+    <string name="today">Hoje</string>
+    <string name="tomorrow">Amanhã</string>
+
+    <!-- Relapse Dialog -->
+    <string name="relapse_dialog_title">Marcar Recaída</string>
+    <string name="relapse_confirmation_message">Uma recaída redefinirá seu progresso atual. Tem certeza?</string>
+    <string name="yes_button">Sim</string>
+    <string name="no_button">Não</string>
+    <string name="future_date_error">Não é possível selecionar uma data futura</string>
+    <string name="future_time_error">Não é possível selecionar um horário futuro</string>
+    <string name="relapse_recorded_toast">Recaída registrada. Progresso atualizado.</string>
+    <string name="relapse_no_progress_change_toast">Recaída registrada. Progresso inalterado.</string>
+
+    <!-- Marking Actions -->
+    <string name="relapse_today_error">❌ Não é possível marcar vitória em um dia de recaída!</string>
+    <string name="day_marked_toast">✅ Dia marcado para \"%s\"!</string>
+    <string name="already_marked_toast">🕒 Este dia já está marcado!</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="delete_confirmation_title">Confirmação de Exclusão</string>
+    <string name="delete_confirmation_message">Tem certeza de que deseja excluir o item \"%s\"?</string>
+    <string name="item_deleted_toast">Item excluído</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_dialog_title">Configurações</string>
+    <string name="notifications_title">Notificações</string>
+    <string name="sleep_mode_switch">Modo Sono (Sem Notificações)</string>
+    <string name="sleep_start_label">Início do Modo Sono:</string>
+    <string name="sleep_end_label">Fim do Modo Sono:</string>
+    <string name="addiction_reminders_switch">Revisão Diária</string>
+    <string name="addiction_reminder_time_label">Horário da Revisão Diária:</string>
+    <string name="app_info_title">Sobre o Aplicativo</string>
+    <string name="version_label">Versão: </string>
+    <string name="version_unknown">Versão: desconhecida</string>
+    <string name="feedback_button">Enviar Feedback</string>
+    <string name="close_button">Fechar</string>
+    <string name="addiction_reminders_disabled_toast">Lembretes de vícios desativados</string>
+    <string name="addiction_reminders_updated_toast">Lembretes de vícios atualizados</string>
+    <string name="no_email_app_error">Nenhum aplicativo disponível para envio de e-mail</string>
+    <string name="feedback_email_subject">Feedback para o Aplicativo Rastreador de Hábitos</string>
+    <string name="feedback_email">email@alexpechkin.com</string>
+
+    <!-- Messages Screen -->
+    <string name="messages_placeholder">Suas mensagens e lembretes aparecerão aqui</string>
+
+    <!-- Notifications -->
+    <string name="habit_reminder_title">Lembrete: %s</string>
+    <string name="habit_reminder_message">Hora de realizar o hábito</string>
+    <string name="addiction_reminder_title">Luta contra o Vício</string>
+    <string name="addiction_reminder_message">Hora de atualizar seu progresso</string>
+
+    <!-- Permission Explanation -->
+    <string name="notification_permission_title">Permissão de Notificação Necessária</string>
+    <string name="notification_permission_message">Sem essa permissão, o aplicativo não pode enviar lembretes. Você pode conceder a permissão nas configurações.</string>
+    <string name="settings_button">Configurações</string>
+    <string name="later_button">Mais tarde</string>
+    <string name="no_notifications_warning">Sem notificações, algumas funcionalidades serão limitadas</string>
+
+    <!-- Loading and Errors -->
+    <string name="loading_text">Carregando dados...</string>
+    <string name="firebase_load_error">Falha ao carregar dados do Firebase. Usando dados locais.</string>
+
+    <!-- MainActivity -->
+    <string name="database_connection_error">Erro de conexão com o banco de dados</string>
+    <string name="invalid_age_error">Por favor, insira uma idade válida</string>
+    <string name="age_range_error">A idade deve estar entre 14 e 90</string>
+    <string name="select_gender_error">Por favor, selecione um gênero</string>
+    <string name="login_first_error">Por favor, faça login primeiro</string>
+    <string name="no_internet_connection">Sem conexão com a internet</string>
+    <string name="error_sign_in_failed">Falha no login com código de erro: %d</string>
+    <string name="firebase_not_configured_error">Erro: Firebase não configurado.</string>
+    <string name="unexpected_error">Ocorreu um erro inesperado.</string>
+    <string name="null_token_error">Falha ao obter o token do Google.</string>
+    <string name="login_success">Login realizado com sucesso como %s</string>
+    <string name="firebase_auth_error">Falha na autenticação do Firebase</string>
+    <string name="user_data_saved_success">Dados salvos com sucesso</string>
+    <string name="user_data_save_error">Erro ao salvar dados: %s</string>
+    <string name="user_data_check_error">Falha ao verificar dados do usuário: %s</string>
+
+    <!-- Gender Spinner Options -->
+    <array name="gender_array">
+        <item>Selecionar Gênero</item>
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </array>
+
+    <!-- HabitsActivity -->
+    <string name="add_custom">Adicionar</string>
+    <string name="habits_saved_success">Hábitos salvos com sucesso!</string>
+    <string name="habits_save_error">Erro ao salvar hábitos no Firebase!</string>
+    <string name="user_not_authorized_error">Usuário não autorizado!</string>
+
+    <!-- AddictionsActivity -->
+    <string name="addictions_saved_success">Vícios salvos com sucesso!</string>
+    <string name="addictions_save_error">Erro ao salvar vícios no Firebase!</string>
+    <string name="return_to_habits_button">Voltar para Hábitos</string>
+
+    <string name="welcome_message">Bem-vindo ao Rastreador de Hábitos!</string>
+    <string name="hint_enter_your_name">Insira seu nome</string>
+    <string name="hint_age">Insira sua idade</string>
+    <string name="next">Próximo</string>
+    <string name="choose_habits">Escolha seus hábitos</string>
+    <string name="enter_custom_habit">Insira um hábito personalizado</string>
+    <string name="choose_addictions">Escolha seus vícios</string>
+    <string name="enter_custom_addiction">Insira um vício personalizado</string>
+    <string name="return_to_habits">Voltar para Hábitos</string>
+    <string name="finish">Concluir</string>
+    <string name="selected_habits">Hábitos Selecionados</string>
+    <string name="selected_addictions">Vícios Selecionados</string>
+
+    <string name="notification_channel_name">Serviço de Lembrete</string>
+    <string name="notification_content">O serviço de lembrete está em execução</string>
+
+    <string name="duration_days">d</string>
+    <string name="duration_hours">h</string>
+    <string name="duration_minutes">min</string>
+
+    <string name="day_singular">dia</string>
+    <string name="day_plural">dias</string>
+
+    <string name="panic_button">Botão de Pânico</string>
+    <string name="panic_message_breathe_in">Inspire</string>
+    <string name="panic_message_breathe_out">Expire</string>
+    <string name="panic_message_remember_why">Lembre-se por que você quer permanecer forte</string>
+    <string name="panic_message_you_are_strong">Você é mais forte que seus impulsos</string>
+    <string name="panic_message_one_step">Dê um passo de cada vez</string>
+
+    <!-- Community Features -->
+    <string name="set_username_title">Defina Seu Nome de Usuário para a Comunidade</string>
+    <string name="username_hint">Digite o nome de usuário</string>
+    <string name="username_empty_error">O nome de usuário não pode estar vazio</string>
+    <string name="username_taken_error">O nome de usuário já está em uso</string>
+    <string name="username_set_toast">Nome de usuário definido com sucesso</string>
+    <string name="no_chats_text">Nenhum chat disponível</string>
+    <string name="open_chat_button">Abrir Chat</string>
+    <string name="unnamed_chat">Chat Sem Nome</string>
+    <string name="message_hint">Digite uma mensagem</string>
+    <string name="send_button">Enviar</string>
+    <string name="empty_message_error">A mensagem não pode estar vazia</string>
+    <string name="message_sent_toast">Mensagem enviada</string>
+    <string name="message_send_error">Falha ao enviar mensagem</string>
+    <string name="create_chat_title">Criar Novo Chat</string>
+    <string name="chat_name_hint">Digite o nome do chat</string>
+    <string name="chat_name_empty_error">O nome do chat não pode estar vazio</string>
+    <string name="chat_created_toast">Chat criado com sucesso</string>
+    <string name="create_chat_button">Criar Novo Chat</string>
+    <string name="find_partner_button">Encontrar Parceiro de Responsabilidade</string>
+    <string name="no_partners_found">Nenhum parceiro em potencial encontrado</string>
+    <string name="partner_chat_created_toast">Chat de responsabilidade criado</string>
+    <string name="anonymous_user">Anônimo</string>
+    <string name="create_button">Criar</string>
+    <string name="global_chat_created_toast">Chat global criado</string>
+    <string name="global_chat_label">(Global)</string>
+    <string name="created_by_label">Criado por: %s</string>
+    <string name="unknown_user">Usuário Desconhecido</string>
+    <string name="create_chat_dialog_title">Criar Novo Chat</string>
+    <string name="firebase_save_error">Erro ao salvar no Firebase</string>
+    <string name="user_not_logged_in_error">Faça login primeiro para criar um chat</string>
+
+    <string name="calendar_title">Calendário de Progresso</string>
+    <string name="relapse_history_title">Histórico de Recaídas</string>
+    <string name="addiction_title_placeholder">Estatísticas de Vício</string>
+    <string name="error_no_addiction_key">Nenhum vício selecionado</string>
+    <string name="marked_day">Dia da Vitória</string>
+    <string name="relapse_day">Dia da Recaída</string>
+    <string name="no_relapses_text">Nenhuma recaída registrada</string>
+    <string name="relapse_graph_title">Gráfico de Recaídas</string>
+    <string name="relapse_count_label">Contagem de Recaídas</string>
+    <string name="no_relapse_data">Nenhum dado de recaída disponível</string>
+    <string name="day_of_week_chart_title">Gráfico de Recaídas por Dia da Semana</string>
+    <string name="time_of_day_chart_title">Gráfico de Recaídas por Horário do Dia</string>
+
+    <!-- Goals Section -->
+    <string name="goals_title">Seus Objetivos</string>
+    <string name="no_goals_text">Nenhum objetivo definido ainda. Adicione um objetivo para acompanhar seu progresso!</string>
+    <string name="add_goal_button">Adicionar Novo Objetivo</string>
+    <string name="add_goal_dialog_title">Definir um Novo Objetivo</string>
+    <string name="select_habit_label">Selecionar Hábito ou Vício</string>
+    <string name="select_habit_placeholder">Escolha um hábito ou vício</string>
+    <string name="goal_type_label">Tipo de Objetivo</string>
+    <string name="streak_goal">Sequência (Dias)</string>
+    <string name="progress_goal">Progresso (%)</string>
+    <string name="target_value_label">Valor Alvo</string>
+    <string name="target_value_hint">Insira o alvo (ex.: 30 para 30 dias ou 50 para 50%)</string>
+    <string name="select_habit_error">Por favor, selecione um hábito ou vício</string>
+    <string name="target_empty_error">Por favor, insira um valor alvo</string>
+    <string name="target_invalid_error">O alvo deve ser um número positivo</string>
+    <string name="goal_description">Objetivo para %1$s: Alcançar %2$s (%3$s)</string>
+    <string name="achieved_label">Concluído</string>
+    <string name="in_progress_label">Em Andamento</string>
+    <string name="set_date_label">Definido em</string>
+    <string name="delete_goal_button">Excluir Objetivo</string>
+    <string name="delete_goal_confirmation_title">Excluir Objetivo</string>
+    <string name="delete_goal_confirmation_message">Tem certeza de que deseja excluir este objetivo?</string>
+    <string name="goal_added_toast">Objetivo adicionado com sucesso!</string>
+    <string name="goal_deleted_toast">Objetivo excluído com sucesso!</string>
+    <string name="goal_achieved_toast">Parabéns! Você alcançou seu objetivo para %1$s!</string>
+
+    <!-- Existing strings -->
+    <string name="gender_restriction_label">Restrição de Gênero</string>
+    <string name="gender_any">Qualquer</string>
+    <string name="gender_male">Masculino</string>
+    <string name="gender_female">Feminino</string>
+    <string name="gender_other">Outro</string>
+    <string name="age_range_label">Faixa Etária</string>
+    <string name="min_age_hint">Idade Mínima</string>
+    <string name="max_age_hint">Idade Máxima</string>
+    <string name="invalid_age_range_error">A idade mínima não pode ser maior que a máxima</string>
+    <string name="invalid_age_format_error">Por favor, insira uma idade válida</string>
+    <string name="set_profile_title">Definir Informações do Perfil</string>
+    <string name="gender_label">Gênero</string>
+    <string name="age_label">Idade</string>
+    <string name="age_empty_error">A idade não pode estar vazia</string>
+    <string name="age_invalid_error">Por favor, insira uma idade válida (14-90)</string>
+    <string name="profile_set_toast">Informações do perfil salvas com sucesso</string>
+    <string name="message_options">Opções de Mensagem</string>
+    <string name="copy_message">Copiar Mensagem</string>
+    <string name="report_message">Denunciar Mensagem</string>
+    <string name="message_copied">Mensagem copiada</string>
+    <string name="send_email">Enviar Email</string>
+    <string name="email_client_error">Nenhum cliente de email encontrado</string>
+
+    <string name="mark_completion_button">Marcar Conclusão</string>
+    <string name="habit_completed_toast">Hábito \"%1$s\" marcado como concluído!</string>
+    <string name="habit_additional_completion_toast">Conclusão adicional registrada para \"%1$s\"!</string>
+
+    <!-- Accountability Partner Strings -->
+    <string name="accountability_partner_title">Encontre um Parceiro de Responsabilidade</string>
+    <string name="select_habit_addiction_prompt">Selecione hábito ou vício:</string>
+    <string name="accountability_note">Sua idade e gênero do seu perfil serão usados para correspondência</string>
+    <string name="submit_request">Enviar Solicitação</string>
+    <string name="login_required">Você deve estar logado para usar este recurso</string>
+    <string name="profile_incomplete">Seu perfil está incompleto. Por favor, defina sua idade e gênero primeiro.</string>
+    <string name="set_username_first">Por favor, defina seu nome de usuário primeiro</string>
+    <string name="request_creation_error">Erro ao criar solicitação. Tente novamente.</string>
+    <string name="request_submitted_success">Sua solicitação de parceiro de responsabilidade foi enviada</string>
+    <string name="request_submission_failed">Falha ao enviar solicitação. Tente novamente.</string>
+    <string name="accountability_requests_header">Solicitações de Parceiro de Responsabilidade</string>
+    <string name="create_accountability_request">Criar Solicitação de Responsabilidade</string>
+    <string name="no_active_requests">Nenhuma solicitação ativa de parceiro de responsabilidade encontrada</string>
+    <string name="your_accountability_chats">Seus Chats de Responsabilidade</string>
+    <string name="accountability_request_from">Solicitação de responsabilidade de %1$s</string>
+    <string name="accountability_for_habit">Para hábito/vício: %1$s</string>
+    <string name="user_details_format">Idade: %1$d | Gênero: %2$s</string>
+    <string name="accept_request">Aceitar Solicitação</string>
+    <string name="request_not_found">Solicitação não encontrada ou já aceita</string>
+    <string name="request_accepted">Solicitação aceita! Chat criado.</string>
+    <string name="chat_creation_failed">Falha ao criar chat. Tente novamente.</string>
+    <string name="accountability_partners_tab">Solicitações de Responsabilidade</string>
+    <string name="chats_tab">Chats</string>
+    <string name="no_habits_available">Nenhum hábito disponível</string>
+    <string name="your_request">Sua Solicitação de Responsabilidade</string>
+    <string name="cancel_request">Cancelar Solicitação</string>
+    <string name="request_cancelled">Sua solicitação foi cancelada</string>
+    <string name="request_cancellation_failed">Falha ao cancelar solicitação. Tente novamente.</string>
+    <string name="others_requests_header">Solicitações de Outros Usuários</string>
+    <string name="no_other_requests">Nenhuma solicitação de outros usuários disponível</string>
+    <string name="login_to_see_chats">Faça login para ver seus chats</string>
+    <string name="no_accountability_chats">Você ainda não tem chats de responsabilidade</string>
+    <string name="accountability_chat_with">Responsabilidade com %1$s</string>
+    <string name="partner_label">Parceiro: %1$s</string>
+    <string name="unknown_partner">Parceiro Desconhecido</string>
+    <string name="habit_label">Hábito/vício: %1$s</string>
+    <string name="unknown_habit">Hábito ou Vício Desconhecido</string>
+
+    <string name="hour_singular">hora</string>
+    <string name="hours_label">horas</string>
+    <string name="minute_singular">min</string>
+    <string name="minutes_label">mins</string>
+
+    <string name="error_no_habit_key">Erro: chave do hábito não encontrada</string>
+    <string name="no_completion_data">Nenhum dado de conclusão</string>
+    <string name="completion_count_label">Contagem de conclusões</string>
+    <string name="completion_history_title">Histórico de conclusões:</string>
+    <string name="no_completions_text">Nenhuma conclusão</string>
+
+    <string name="habit_title_placeholder">Hábito</string>
+    <string name="habit_calendar_title">Calendário de conclusões</string>
+    <string name="habit_day_of_week_chart_title">Conclusões por dia da semana</string>
+    <string name="habit_time_of_day_chart_title">Conclusões por hora do dia</string>
+
+    <string name="missed_days_warning">%d dias perdidos</string>
+
+    <string-array name="day_names">
+        <item>Seg</item>
+        <item>Ter</item>
+        <item>Qua</item>
+        <item>Qui</item>
+        <item>Sex</item>
+        <item>Sáb</item>
+        <item>Dom</item>
+    </string-array>
+
+    <string name="offline_mode_message">Você está trabalhando no modo offline. As alterações serão salvas localmente.</string>
+    <string name="offline_messages_unavailable">A aba de mensagens não está disponível no modo offline.</string>
+    <string name="data_synced">Dados sincronizados com o Firebase.</string>
+
+    <string name="accountability_chat_name">Accountability: %1$s and %2$s</string>
+
+    <!-- Accountability Partner Request Strings -->
+    <string name="request_inactive">Esta solicitação não está mais ativa.</string>
+    <string name="no_habits_to_select">Por favor, adicione um hábito ou vício antes de criar uma solicitação.</string>
+    <string name="complete_profile_to_accept">Complete seu perfil para aceitar solicitações.</string>
+    <string name="error_loading_profile">Erro ao carregar o perfil.</string>
+    <string name="login_to_see_requests">Por favor, faça login para visualizar as solicitações de responsabilidade.</string>
+    <string name="login_to_accept">Faça login primeiro para aceitar</string>
+    <string name="accountability_chat_default">Chats com parceiros de responsabilidade</string>
+
+    <string name="account_title">Conta</string>
+    <string name="logout_button">Sair</string>
+    <string name="logout_confirmation_title">Confirmar Saída</string>
+    <string name="logout_confirmation_message">Tem certeza de que deseja sair? Isso limpará todos os dados locais.</string>
+    <string name="logout_success_toast">Desconectado com sucesso</string>
+</resources>

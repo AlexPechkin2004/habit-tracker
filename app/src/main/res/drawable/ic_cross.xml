@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Іконка хрестика, де лінії зроблено товстішими -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/purple_500"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M6,6 L18,18"/>
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/purple_500"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M18,6 L6,18"/>
+</vector>

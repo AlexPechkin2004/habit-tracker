@@ -1,0 +1,52 @@
+[versions]
+# Plugins
+android-gradle = "8.7.2"
+google-services = "4.4.2"
+sonarqube = "6.2.0.5505"
+
+# AndroidX and Material
+androidx-appcompat = "1.7.0"
+material = "1.12.0"
+androidx-constraintlayout = "2.2.1"
+androidx-localbroadcastmanager = "1.1.0"
+androidx-work = "2.10.1"
+
+# Google Services
+google-play-auth = "21.3.0"
+
+# Firebase
+firebase-auth = "23.2.1"
+firebase-bom = "33.5.1"
+firebase-messaging = "24.1.1"
+
+# Other libraries
+gson = "2.11.0"
+mpandroidchart = "3.1.0"
+volley = "1.2.1"
+
+[libraries]
+# AndroidX and Material
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-constraintlayout" }
+androidx-localbroadcastmanager = { module = "androidx.localbroadcastmanager:localbroadcastmanager", version.ref = "androidx-localbroadcastmanager" }
+androidx-work = { module = "androidx.work:work-runtime", version.ref = "androidx-work" }
+
+# Google Services
+google-play-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "google-play-auth" }
+
+# Firebase
+firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebase-auth" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+firebase-database = { module = "com.google.firebase:firebase-database" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebase-messaging" }
+
+# Other libraries
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+mpandroidchart = { module = "com.github.PhilJay:MPAndroidChart", version.ref = "mpandroidchart" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-gradle" }
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
+sonarqube = { id = "org.sonarqube", version.ref = "sonarqube" }
