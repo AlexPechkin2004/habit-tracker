@@ -1,5 +1,3 @@
-import java.util.Properties
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.services)
@@ -20,8 +18,6 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-
-        resValue("string", "default_web_client_id", getDefaultWebClientId())
     }
 
     signingConfigs {
@@ -83,13 +79,4 @@ dependencies {
     implementation(libs.firebase.messaging)
     implementation(libs.volley)
     implementation(libs.androidx.work)
-}
-
-fun getDefaultWebClientId(): String {
-    val props = Properties()
-    val localPropertiesFile = rootProject.file("local.properties")
-    if (localPropertiesFile.exists()) {
-        localPropertiesFile.inputStream().use { props.load(it) }
-    }
-    return "\"${props.getProperty("defaultWebClientId") ?: ""}\""
 }
