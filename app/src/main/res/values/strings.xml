@@ -178,8 +178,6 @@
     <string name="addictions_save_error">Error saving addictions to Firebase!</string>
     <string name="return_to_habits_button">Return to Habits</string>
 
-    <string name="default_web_client_id" translatable="false">361907307153-377c027d9eo05bnnipugks9n37mjniqa.apps.googleusercontent.com</string>
-
     <string name="welcome_message">Welcome to Habit Tracker!</string>
     <string name="hint_enter_your_name">Enter your name</string>
     <string name="hint_age">Enter your age</string>
